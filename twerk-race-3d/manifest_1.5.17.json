@@ -1,0 +1,23 @@
+{
+  "short_name": "Twerk Race 3D",
+  "name": "Twerk Race 3D",
+  "icons": [
+    {
+      "src": "https://img.gamedistribution.com/82ad6da63d8a46f8898efbc4c5e5d41c-512x512.jpeg",
+      "type": "image/jpeg",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "https://img.gamedistribution.com/82ad6da63d8a46f8898efbc4c5e5d41c-512x512.jpeg",
+      "type": "image/png",
+      "sizes": "144x144",
+      "purpose": "any"
+    }
+  ],
+  "start_url": "/82ad6da63d8a46f8898efbc4c5e5d41c/index.html",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/82ad6da63d8a46f8898efbc4c5e5d41c/",
+  "theme_color": "#3367D6"
+}
