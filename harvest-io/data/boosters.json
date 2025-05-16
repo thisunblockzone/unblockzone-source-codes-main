@@ -1,0 +1,296 @@
+{
+    "boosters": {
+        "booster_bonusPlants_default": {
+            "boosterNameKey": "bonusPlants",
+            "adsBonusTextKey": "bonusPlantsDesc",
+            "hasAdsBonus": 1,
+            "pickupRadius": 2,
+            "duration": 0,
+            "adsBonusDuration": 0,
+            "aiUsageChance": 1,
+            "aiUsageDelayMin": 1,
+            "aiUsageDelayMax": 3,
+            "cannotBeUsedWhenActive": [],
+            "equivalentInResult": 3,
+            "adsBonusEquivalent": 1,
+            "vfxPositionOffset": {
+                "x": 0,
+                "y": 10,
+                "z": 0
+            }
+        },
+        "booster_companion_default": {
+            "boosterNameKey": "companion",
+            "adsBonusTextKey": "tenPercentTime",
+            "hasAdsBonus": 1,
+            "pickupRadius": 2,
+            "duration": 15,
+            "adsBonusDuration": 1.5,
+            "aiUsageChance": 1,
+            "aiUsageDelayMin": 1,
+            "aiUsageDelayMax": 3,
+            "cannotBeUsedWhenActive": [],
+            "equivalentInResult": 0,
+            "adsBonusEquivalent": 0,
+            "vfxPositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "booster_freezeBooster_default": {
+            "boosterNameKey": "freezeBooster",
+            "adsBonusTextKey": "tenPercentTime",
+            "hasAdsBonus": 1,
+            "pickupRadius": 2,
+            "duration": 10,
+            "adsBonusDuration": 1,
+            "aiUsageChance": 0,
+            "aiUsageDelayMin": 1,
+            "aiUsageDelayMax": 3,
+            "cannotBeUsedWhenActive": [],
+            "equivalentInResult": 0,
+            "adsBonusEquivalent": 0,
+            "vfxPositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "booster_invulnerability_default": {
+            "boosterNameKey": "invulnerability",
+            "adsBonusTextKey": "tenPercentTime",
+            "hasAdsBonus": 1,
+            "pickupRadius": 2,
+            "duration": 15,
+            "adsBonusDuration": 1.5,
+            "aiUsageChance": 1,
+            "aiUsageDelayMin": 1,
+            "aiUsageDelayMax": 3,
+            "cannotBeUsedWhenActive": [],
+            "equivalentInResult": 0,
+            "adsBonusEquivalent": 0,
+            "vfxPositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "booster_megaReel_default": {
+            "boosterNameKey": "megaReel",
+            "adsBonusTextKey": "tenPercentTime",
+            "hasAdsBonus": 1,
+            "pickupRadius": 2,
+            "duration": 20,
+            "adsBonusDuration": 2,
+            "aiUsageChance": 1,
+            "aiUsageDelayMin": 1,
+            "aiUsageDelayMax": 3,
+            "cannotBeUsedWhenActive": [
+                "booster_sawReel_default"
+            ],
+            "equivalentInResult": 0,
+            "adsBonusEquivalent": 0,
+            "vfxPositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "booster_reaper_default": {
+            "boosterNameKey": "reaper",
+            "adsBonusTextKey": "tenPercentRadius",
+            "hasAdsBonus": 1,
+            "pickupRadius": 2,
+            "duration": 1,
+            "adsBonusDuration": 0,
+            "aiUsageChance": 1,
+            "aiUsageDelayMin": 1,
+            "aiUsageDelayMax": 3,
+            "cannotBeUsedWhenActive": [],
+            "equivalentInResult": 0,
+            "adsBonusEquivalent": 0,
+            "vfxPositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "booster_sawReel_default": {
+            "boosterNameKey": "saw",
+            "adsBonusTextKey": "tenPercentTime",
+            "hasAdsBonus": 1,
+            "pickupRadius": 2,
+            "duration": 15,
+            "adsBonusDuration": 1.5,
+            "aiUsageChance": 1,
+            "aiUsageDelayMin": 1,
+            "aiUsageDelayMax": 3,
+            "cannotBeUsedWhenActive": [
+                "booster_megaReel_default"
+            ],
+            "equivalentInResult": 0,
+            "adsBonusEquivalent": 0,
+            "vfxPositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "booster_speed_default": {
+            "boosterNameKey": "speedBooster",
+            "adsBonusTextKey": "tenPercentTime",
+            "hasAdsBonus": 1,
+            "pickupRadius": 2,
+            "duration": 15,
+            "adsBonusDuration": 1.5,
+            "aiUsageChance": 1,
+            "aiUsageDelayMin": 1,
+            "aiUsageDelayMax": 3,
+            "cannotBeUsedWhenActive": [],
+            "equivalentInResult": 0,
+            "adsBonusEquivalent": 0,
+            "vfxPositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "booster_truckMul_default": {
+            "boosterNameKey": "truckMul",
+            "adsBonusTextKey": "",
+            "hasAdsBonus": 0,
+            "pickupRadius": 2,
+            "duration": 0,
+            "adsBonusDuration": 0,
+            "aiUsageChance": 1,
+            "aiUsageDelayMin": 1,
+            "aiUsageDelayMax": 3,
+            "cannotBeUsedWhenActive": [],
+            "equivalentInResult": 0,
+            "adsBonusEquivalent": 0,
+            "vfxPositionOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        }
+    },
+    "groups": {
+        "bstGrp_free_high": [
+            {
+                "chanceWeight": 1,
+                "adsChance": 0,
+                "delayBeforeSpawnMin": 15,
+                "delayBeforeSpawnMax": 15,
+                "booster": "booster_companion_default"
+            },
+            {
+                "chanceWeight": 1,
+                "adsChance": 0,
+                "delayBeforeSpawnMin": 15,
+                "delayBeforeSpawnMax": 15,
+                "booster": "booster_freezeBooster_default"
+            },
+            {
+                "chanceWeight": 1,
+                "adsChance": 0,
+                "delayBeforeSpawnMin": 15,
+                "delayBeforeSpawnMax": 15,
+                "booster": "booster_sawReel_default"
+            }
+        ],
+        "bstGrp_free_low": [
+            {
+                "chanceWeight": 1,
+                "adsChance": 0,
+                "delayBeforeSpawnMin": 15,
+                "delayBeforeSpawnMax": 15,
+                "booster": "booster_bonusPlants_default"
+            },
+            {
+                "chanceWeight": 1,
+                "adsChance": 0,
+                "delayBeforeSpawnMin": 15,
+                "delayBeforeSpawnMax": 15,
+                "booster": "booster_speed_default"
+            },
+            {
+                "chanceWeight": 1,
+                "adsChance": 0,
+                "delayBeforeSpawnMin": 15,
+                "delayBeforeSpawnMax": 15,
+                "booster": "booster_megaReel_default"
+            }
+        ],
+        "bstGrp_high": [
+            {
+                "chanceWeight": 1,
+                "adsChance": 0.3,
+                "delayBeforeSpawnMin": 15,
+                "delayBeforeSpawnMax": 15,
+                "booster": "booster_companion_default"
+            },
+            {
+                "chanceWeight": 1,
+                "adsChance": 0.7,
+                "delayBeforeSpawnMin": 15,
+                "delayBeforeSpawnMax": 15,
+                "booster": "booster_freezeBooster_default"
+            },
+            {
+                "chanceWeight": 1,
+                "adsChance": 0.7,
+                "delayBeforeSpawnMin": 15,
+                "delayBeforeSpawnMax": 15,
+                "booster": "booster_sawReel_default"
+            }
+        ],
+        "bstGrp_low": [
+            {
+                "chanceWeight": 1,
+                "adsChance": 0.3,
+                "delayBeforeSpawnMin": 15,
+                "delayBeforeSpawnMax": 15,
+                "booster": "booster_truckMul_default"
+            },
+            {
+                "chanceWeight": 1,
+                "adsChance": 0.3,
+                "delayBeforeSpawnMin": 15,
+                "delayBeforeSpawnMax": 15,
+                "booster": "booster_speed_default"
+            },
+            {
+                "chanceWeight": 1,
+                "adsChance": 0.3,
+                "delayBeforeSpawnMin": 15,
+                "delayBeforeSpawnMax": 15,
+                "booster": "booster_megaReel_default"
+            }
+        ],
+        "bstGrp_medium": [
+            {
+                "chanceWeight": 1,
+                "adsChance": 0.3,
+                "delayBeforeSpawnMin": 15,
+                "delayBeforeSpawnMax": 15,
+                "booster": "booster_bonusPlants_default"
+            },
+            {
+                "chanceWeight": 1,
+                "adsChance": 0.7,
+                "delayBeforeSpawnMin": 15,
+                "delayBeforeSpawnMax": 15,
+                "booster": "booster_invulnerability_default"
+            },
+            {
+                "chanceWeight": 1,
+                "adsChance": 0.3,
+                "delayBeforeSpawnMin": 15,
+                "delayBeforeSpawnMax": 15,
+                "booster": "booster_reaper_default"
+            }
+        ]
+    }
+}

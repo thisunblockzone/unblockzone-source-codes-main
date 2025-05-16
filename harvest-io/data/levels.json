@@ -1,0 +1,2370 @@
+{
+    "levels": [
+        {
+            "levelId": "level_1",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_01",
+            "preview": "Level1",
+            "plants": [{ "type": "wheat", "chance": 100 }],
+            "completePlants": [{ "type": "wheat", "count": 75 }],
+            "boosterSettings": [
+                { "type": "bstGrp_free_low", "chanceWeight": 1 },
+                { "type": "bstGrp_free_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_1",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_01_cw",
+            "preview": "Level1_cw",
+            "plants": [
+                { "type": "snow1", "chance": 80 },
+                { "type": "candy", "chance": 20 }
+            ],
+            "completePlants": [
+                { "type": "snow1", "count": 75 },
+                { "type": "candy", "count": 25 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_free_low", "chanceWeight": 1 },
+                { "type": "bstGrp_free_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_2",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 1,
+            "environment": "Field_02",
+            "preview": "Level2",
+            "plants": [
+                { "type": "wheat", "chance": 56 },
+                { "type": "corn", "chance": 44 }
+            ],
+            "completePlants": [
+                { "type": "wheat", "count": 105 },
+                { "type": "corn", "count": 85 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": "skinGrp_Harvester2"
+        },
+        {
+            "levelId": "level_cw_2",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_02_cw",
+            "preview": "Level2_cw",
+            "plants": [
+                { "type": "snow1", "chance": 40 },
+                { "type": "candy", "chance": 60 }
+            ],
+            "completePlants": [
+                { "type": "snow1", "count": 60 },
+                { "type": "candy", "count": 60 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_3",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 99,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 1,
+            "environment": "Field_03",
+            "preview": "Level3",
+            "plants": [
+                { "type": "wheat", "chance": 39 },
+                { "type": "corn", "chance": 33 },
+                { "type": "sunflower", "chance": 27 }
+            ],
+            "completePlants": [
+                { "type": "wheat", "count": 135 },
+                { "type": "corn", "count": 115 },
+                { "type": "sunflower", "count": 105 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": "skinGrp_Harvester3"
+        },
+        {
+            "levelId": "level_cw_3",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_03_cw",
+            "preview": "Level3_cw",
+            "plants": [
+                { "type": "cookie", "chance": 70 },
+                { "type": "candy", "chance": 30 }
+            ],
+            "completePlants": [
+                { "type": "cookie", "count": 85 },
+                { "type": "candy", "count": 60 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_4",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 1,
+            "environment": "Field_04",
+            "preview": "Level4",
+            "plants": [
+                { "type": "wheat", "chance": 30 },
+                { "type": "corn", "chance": 27 },
+                { "type": "sunflower", "chance": 23 },
+                { "type": "carrot", "chance": 20 }
+            ],
+            "completePlants": [
+                { "type": "wheat", "count": 170 },
+                { "type": "corn", "count": 145 },
+                { "type": "sunflower", "count": 135 },
+                { "type": "carrot", "count": 115 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": "skinGrp_Harvester4"
+        },
+        {
+            "levelId": "level_cw_4",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_04_cw",
+            "preview": "Level4_cw",
+            "plants": [
+                { "type": "snow1", "chance": 10 },
+                { "type": "lollipop", "chance": 45 },
+                { "type": "cookie", "chance": 45 }
+            ],
+            "completePlants": [
+                { "type": "lollipop", "count": 75 },
+                { "type": "cookie", "count": 75 },
+                { "type": "snow1", "count": 25 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_5",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 1,
+            "environment": "Field_05",
+            "preview": "Level5",
+            "plants": [
+                { "type": "corn", "chance": 29 },
+                { "type": "sunflower", "chance": 26 },
+                { "type": "carrot", "chance": 23 },
+                { "type": "cabbage", "chance": 22 }
+            ],
+            "completePlants": [
+                { "type": "corn", "count": 180 },
+                { "type": "sunflower", "count": 170 },
+                { "type": "carrot", "count": 160 },
+                { "type": "cabbage", "count": 145 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": "skinGrp_Harvester5"
+        },
+        {
+            "levelId": "level_cw_5",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_05_cw",
+            "preview": "Level5_cw",
+            "plants": [
+                { "type": "snow1", "chance": 10 },
+                { "type": "gift", "chance": 45 },
+                { "type": "cookie", "chance": 45 }
+            ],
+            "completePlants": [
+                { "type": "gift", "count": 85 },
+                { "type": "cookie", "count": 85 },
+                { "type": "snow1", "count": 25 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_6",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 1,
+            "environment": "Field_06",
+            "preview": "Level6",
+            "plants": [
+                { "type": "sunflower", "chance": 28 },
+                { "type": "carrot", "chance": 25 },
+                { "type": "cabbage", "chance": 25 },
+                { "type": "beetle", "chance": 22 }
+            ],
+            "completePlants": [
+                { "type": "sunflower", "count": 195 },
+                { "type": "carrot", "count": 180 },
+                { "type": "cabbage", "count": 170 },
+                { "type": "beetle", "count": 160 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_medium", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": "skinGrp_Harvester6"
+        },
+        {
+            "levelId": "level_cw_6",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_06_cw",
+            "preview": "Level6_cw",
+            "plants": [
+                { "type": "snow1", "chance": 10 },
+                { "type": "gift", "chance": 45 },
+                { "type": "rocket", "chance": 45 }
+            ],
+            "completePlants": [
+                { "type": "gift", "count": 100 },
+                { "type": "rocket", "count": 100 },
+                { "type": "snow1", "count": 25 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_medium", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_7",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 1,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_07",
+            "preview": "Level7",
+            "plants": [
+                { "type": "carrot", "chance": 28 },
+                { "type": "cabbage", "chance": 27 },
+                { "type": "beetle", "chance": 24 },
+                { "type": "eggplant", "chance": 21 }
+            ],
+            "completePlants": [
+                { "type": "carrot", "count": 205 },
+                { "type": "cabbage", "count": 195 },
+                { "type": "beetle", "count": 180 },
+                { "type": "eggplant", "count": 170 }
+            ],
+            "boosterSettings": [{ "type": "bstGrp_high", "chanceWeight": 1 }],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_7",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_07_cw",
+            "preview": "Level7_cw",
+            "plants": [
+                { "type": "rocket", "chance": 30 },
+                { "type": "candy", "chance": 35 },
+                { "type": "lollipop", "chance": 35 }
+            ],
+            "completePlants": [
+                { "type": "rocket", "count": 100 },
+                { "type": "candy", "count": 100 },
+                { "type": "lollipop", "count": 75 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_medium", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_8",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 1,
+            "environment": "Field_08",
+            "preview": "Level8",
+            "plants": [
+                { "type": "cabbage", "chance": 29 },
+                { "type": "beetle", "chance": 26 },
+                { "type": "eggplant", "chance": 24 },
+                { "type": "watermelon", "chance": 21 }
+            ],
+            "completePlants": [
+                { "type": "cabbage", "count": 230 },
+                { "type": "beetle", "count": 210 },
+                { "type": "eggplant", "count": 200 },
+                { "type": "watermelon", "count": 180 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_medium", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": "skinGrp_Harvester7"
+        },
+        {
+            "levelId": "level_cw_8",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 1,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_08_cw",
+            "preview": "Level8_cw",
+            "plants": [
+                { "type": "cookie", "chance": 35 },
+                { "type": "rocket", "chance": 35 },
+                { "type": "lollipop", "chance": 30 }
+            ],
+            "completePlants": [
+                { "type": "cookie", "count": 75 },
+                { "type": "rocket", "count": 75 },
+                { "type": "lollipop", "count": 75 }
+            ],
+            "boosterSettings": [{ "type": "bstGrp_high", "chanceWeight": 1 }],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_9",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 1,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_09",
+            "preview": "Level9",
+            "plants": [
+                { "type": "beetle", "chance": 28 },
+                { "type": "eggplant", "chance": 26 },
+                { "type": "watermelon", "chance": 23 },
+                { "type": "purplewheat", "chance": 23 }
+            ],
+            "completePlants": [
+                { "type": "beetle", "count": 240 },
+                { "type": "eggplant", "count": 230 },
+                { "type": "watermelon", "count": 220 },
+                { "type": "purplewheat", "count": 205 }
+            ],
+            "boosterSettings": [{ "type": "bstGrp_high", "chanceWeight": 1 }],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_9",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_09_cw",
+            "preview": "Level9_cw",
+            "plants": [
+                { "type": "snow1", "chance": 15 },
+                { "type": "rocket", "chance": 30 },
+                { "type": "gift", "chance": 20 },
+                { "type": "cookie", "chance": 35 }
+            ],
+            "completePlants": [
+                { "type": "snow1", "count": 50 },
+                { "type": "rocket", "count": 85 },
+                { "type": "gift", "count": 75 },
+                { "type": "cookie", "count": 100 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_10",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 1,
+            "environment": "Field_10",
+            "preview": "Level10",
+            "plants": [
+                { "type": "eggplant", "chance": 27 },
+                { "type": "watermelon", "chance": 25 },
+                { "type": "purplewheat", "chance": 25 },
+                { "type": "cucumber", "chance": 23 }
+            ],
+            "completePlants": [
+                { "type": "eggplant", "count": 265 },
+                { "type": "watermelon", "count": 255 },
+                { "type": "purplewheat", "count": 240 },
+                { "type": "cucumber", "count": 230 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": "skinGrp_Harvester8"
+        },
+        {
+            "levelId": "level_cw_10",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_01_cw",
+            "preview": "Level1_cw",
+            "plants": [
+                { "type": "snow1", "chance": 80 },
+                { "type": "candy", "chance": 20 }
+            ],
+            "completePlants": [
+                { "type": "snow1", "count": 75 },
+                { "type": "candy", "count": 25 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_11",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 99,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_11",
+            "preview": "Level11",
+            "plants": [
+                { "type": "watermelon", "chance": 27 },
+                { "type": "purplewheat", "chance": 26 },
+                { "type": "cucumber", "chance": 24 },
+                { "type": "tomator", "chance": 22 }
+            ],
+            "completePlants": [
+                { "type": "watermelon", "count": 290 },
+                { "type": "purplewheat", "count": 270 },
+                { "type": "cucumber", "count": 260 },
+                { "type": "tomator", "count": 240 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_11",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_02_cw",
+            "preview": "Level2_cw",
+            "plants": [
+                { "type": "snow1", "chance": 40 },
+                { "type": "candy", "chance": 60 }
+            ],
+            "completePlants": [
+                { "type": "snow1", "count": 60 },
+                { "type": "candy", "count": 60 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_12",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 1,
+            "environment": "Field_12",
+            "preview": "Level12",
+            "plants": [
+                { "type": "purplewheat", "chance": 28 },
+                { "type": "cucumber", "chance": 26 },
+                { "type": "tomator", "chance": 24 },
+                { "type": "apricot", "chance": 22 }
+            ],
+            "completePlants": [
+                { "type": "purplewheat", "count": 300 },
+                { "type": "cucumber", "count": 290 },
+                { "type": "tomator", "count": 280 },
+                { "type": "apricot", "count": 265 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": "skinGrp_Harvester9"
+        },
+        {
+            "levelId": "level_cw_12",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_03_cw",
+            "preview": "Level3_cw",
+            "plants": [
+                { "type": "cookie", "chance": 70 },
+                { "type": "candy", "chance": 30 }
+            ],
+            "completePlants": [
+                { "type": "cookie", "count": 85 },
+                { "type": "candy", "count": 60 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_13",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_13",
+            "preview": "Level13",
+            "plants": [
+                { "type": "cucumber", "chance": 27 },
+                { "type": "tomator", "chance": 26 },
+                { "type": "apricot", "chance": 24 },
+                { "type": "banana", "chance": 23 }
+            ],
+            "completePlants": [
+                { "type": "cucumber", "count": 325 },
+                { "type": "tomator", "count": 300 },
+                { "type": "apricot", "count": 290 },
+                { "type": "banana", "count": 280 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_13",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_04_cw",
+            "preview": "Level4_cw",
+            "plants": [
+                { "type": "snow1", "chance": 10 },
+                { "type": "lollipop", "chance": 45 },
+                { "type": "cookie", "chance": 45 }
+            ],
+            "completePlants": [
+                { "type": "lollipop", "count": 75 },
+                { "type": "cookie", "count": 75 },
+                { "type": "snow1", "count": 25 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_14",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 1,
+            "environment": "Field_14",
+            "preview": "Level14",
+            "plants": [
+                { "type": "tomator", "chance": 27 },
+                { "type": "apricot", "chance": 25 },
+                { "type": "banana", "chance": 25 },
+                { "type": "beetroot", "chance": 23 }
+            ],
+            "completePlants": [
+                { "type": "tomator", "count": 330 },
+                { "type": "apricot", "count": 315 },
+                { "type": "banana", "count": 300 },
+                { "type": "beetroot", "count": 300 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": "skinGrp_Harvester10"
+        },
+        {
+            "levelId": "level_cw_14",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_05_cw",
+            "preview": "Level5_cw",
+            "plants": [
+                { "type": "snow1", "chance": 10 },
+                { "type": "gift", "chance": 45 },
+                { "type": "cookie", "chance": 45 }
+            ],
+            "completePlants": [
+                { "type": "gift", "count": 85 },
+                { "type": "cookie", "count": 85 },
+                { "type": "snow1", "count": 25 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_15",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_15",
+            "preview": "Level15",
+            "plants": [
+                { "type": "apricot", "chance": 27 },
+                { "type": "banana", "chance": 26 },
+                { "type": "beetroot", "chance": 24 },
+                { "type": "cherry", "chance": 23 }
+            ],
+            "completePlants": [
+                { "type": "apricot", "count": 350 },
+                { "type": "banana", "count": 330 },
+                { "type": "beetroot", "count": 330 },
+                { "type": "cherry", "count": 315 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_15",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_06_cw",
+            "preview": "Level6_cw",
+            "plants": [
+                { "type": "snow1", "chance": 10 },
+                { "type": "gift", "chance": 45 },
+                { "type": "rocket", "chance": 45 }
+            ],
+            "completePlants": [
+                { "type": "gift", "count": 100 },
+                { "type": "rocket", "count": 100 },
+                { "type": "snow1", "count": 25 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_16",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_16",
+            "preview": "Level16",
+            "plants": [
+                { "type": "banana", "chance": 27 },
+                { "type": "beetroot", "chance": 26 },
+                { "type": "cherry", "chance": 24 },
+                { "type": "lemon", "chance": 23 }
+            ],
+            "completePlants": [
+                { "type": "banana", "count": 360 },
+                { "type": "beetroot", "count": 360 },
+                { "type": "cherry", "count": 345 },
+                { "type": "lemon", "count": 330 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_16",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_07_cw",
+            "preview": "Level7_cw",
+            "plants": [
+                { "type": "rocket", "chance": 30 },
+                { "type": "candy", "chance": 35 },
+                { "type": "lollipop", "chance": 35 }
+            ],
+            "completePlants": [
+                { "type": "rocket", "count": 100 },
+                { "type": "candy", "count": 100 },
+                { "type": "lollipop", "count": 75 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_17",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_17",
+            "preview": "Level17",
+            "plants": [
+                { "type": "beetroot", "chance": 27 },
+                { "type": "cherry", "chance": 25 },
+                { "type": "lemon", "chance": 24 },
+                { "type": "onion", "chance": 24 }
+            ],
+            "completePlants": [
+                { "type": "beetroot", "count": 390 },
+                { "type": "cherry", "count": 375 },
+                { "type": "lemon", "count": 360 },
+                { "type": "onion", "count": 345 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_17",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_08_cw",
+            "preview": "Level8_cw",
+            "plants": [
+                { "type": "cookie", "chance": 35 },
+                { "type": "rocket", "chance": 35 },
+                { "type": "lollipop", "chance": 30 }
+            ],
+            "completePlants": [
+                { "type": "cookie", "count": 75 },
+                { "type": "rocket", "count": 75 },
+                { "type": "lollipop", "count": 75 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_18",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_18",
+            "preview": "Level18",
+            "plants": [
+                { "type": "cherry", "chance": 27 },
+                { "type": "lemon", "chance": 25 },
+                { "type": "onion", "chance": 25 },
+                { "type": "orange", "chance": 23 }
+            ],
+            "completePlants": [
+                { "type": "cherry", "count": 410 },
+                { "type": "lemon", "count": 390 },
+                { "type": "onion", "count": 375 },
+                { "type": "orange", "count": 360 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_18",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_09_cw",
+            "preview": "Level9_cw",
+            "plants": [
+                { "type": "snow1", "chance": 15 },
+                { "type": "rocket", "chance": 30 },
+                { "type": "gift", "chance": 20 },
+                { "type": "cookie", "chance": 35 }
+            ],
+            "completePlants": [
+                { "type": "snow1", "count": 50 },
+                { "type": "rocket", "count": 85 },
+                { "type": "gift", "count": 75 },
+                { "type": "cookie", "count": 100 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_19",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_19",
+            "preview": "Level19",
+            "plants": [
+                { "type": "lemon", "chance": 26 },
+                { "type": "onion", "chance": 26 },
+                { "type": "orange", "chance": 25 },
+                { "type": "plum", "chance": 23 }
+            ],
+            "completePlants": [
+                { "type": "lemon", "count": 420 },
+                { "type": "onion", "count": 405 },
+                { "type": "orange", "count": 390 },
+                { "type": "plum", "count": 375 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_19",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_01_cw",
+            "preview": "Level1_cw",
+            "plants": [
+                { "type": "snow1", "chance": 80 },
+                { "type": "candy", "chance": 20 }
+            ],
+            "completePlants": [
+                { "type": "snow1", "count": 75 },
+                { "type": "candy", "count": 25 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_20",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_20",
+            "preview": "Level20",
+            "plants": [
+                { "type": "onion", "chance": 27 },
+                { "type": "orange", "chance": 26 },
+                { "type": "plum", "chance": 24 },
+                { "type": "potato", "chance": 23 }
+            ],
+            "completePlants": [
+                { "type": "onion", "count": 435 },
+                { "type": "orange", "count": 420 },
+                { "type": "plum", "count": 405 },
+                { "type": "potato", "count": 400 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_20",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_02_cw",
+            "preview": "Level2_cw",
+            "plants": [
+                { "type": "snow1", "chance": 40 },
+                { "type": "candy", "chance": 60 }
+            ],
+            "completePlants": [
+                { "type": "snow1", "count": 60 },
+                { "type": "candy", "count": 60 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_21",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_01",
+            "preview": "Level21",
+            "plants": [
+                { "type": "orange", "chance": 27 },
+                { "type": "plum", "chance": 25 },
+                { "type": "potato", "chance": 24 },
+                { "type": "pumpkin", "chance": 24 }
+            ],
+            "completePlants": [
+                { "type": "orange", "count": 450 },
+                { "type": "plum", "count": 435 },
+                { "type": "potato", "count": 430 },
+                { "type": "pumpkin", "count": 410 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_21",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_03_cw",
+            "preview": "Level3_cw",
+            "plants": [
+                { "type": "cookie", "chance": 70 },
+                { "type": "candy", "chance": 30 }
+            ],
+            "completePlants": [
+                { "type": "cookie", "count": 85 },
+                { "type": "candy", "count": 60 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_22",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_02",
+            "preview": "Level22",
+            "plants": [
+                { "type": "plum", "chance": 26 },
+                { "type": "potato", "chance": 25 },
+                { "type": "pumpkin", "chance": 25 },
+                { "type": "reeds", "chance": 24 }
+            ],
+            "completePlants": [
+                { "type": "plum", "count": 470 },
+                { "type": "potato", "count": 460 },
+                { "type": "pumpkin", "count": 440 },
+                { "type": "reeds", "count": 420 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_22",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_04_cw",
+            "preview": "Level4_cw",
+            "plants": [
+                { "type": "snow1", "chance": 10 },
+                { "type": "lollipop", "chance": 45 },
+                { "type": "cookie", "chance": 45 }
+            ],
+            "completePlants": [
+                { "type": "lollipop", "count": 75 },
+                { "type": "cookie", "count": 75 },
+                { "type": "snow1", "count": 25 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_23",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 101,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_03",
+            "preview": "Level23",
+            "plants": [
+                { "type": "potato", "chance": 26 },
+                { "type": "pumpkin", "chance": 26 },
+                { "type": "reeds", "chance": 25 },
+                { "type": "strawberry", "chance": 24 }
+            ],
+            "completePlants": [
+                { "type": "potato", "count": 495 },
+                { "type": "pumpkin", "count": 470 },
+                { "type": "reeds", "count": 450 },
+                { "type": "strawberry", "count": 435 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_23",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_05_cw",
+            "preview": "Level5_cw",
+            "plants": [
+                { "type": "snow1", "chance": 10 },
+                { "type": "gift", "chance": 45 },
+                { "type": "cookie", "chance": 45 }
+            ],
+            "completePlants": [
+                { "type": "gift", "count": 85 },
+                { "type": "cookie", "count": 85 },
+                { "type": "snow1", "count": 25 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_24",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_04",
+            "preview": "Level24",
+            "plants": [
+                { "type": "pumpkin", "chance": 27 },
+                { "type": "reeds", "chance": 26 },
+                { "type": "strawberry", "chance": 24 },
+                { "type": "tomatoy", "chance": 23 }
+            ],
+            "completePlants": [
+                { "type": "pumpkin", "count": 505 },
+                { "type": "reeds", "count": 480 },
+                { "type": "strawberry", "count": 470 },
+                { "type": "tomatoy", "count": 460 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_24",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_06_cw",
+            "preview": "Level6_cw",
+            "plants": [
+                { "type": "snow1", "chance": 10 },
+                { "type": "gift", "chance": 45 },
+                { "type": "rocket", "chance": 45 }
+            ],
+            "completePlants": [
+                { "type": "gift", "count": 100 },
+                { "type": "rocket", "count": 100 },
+                { "type": "snow1", "count": 25 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_25",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_05",
+            "preview": "Level25",
+            "plants": [
+                { "type": "reeds", "chance": 27 },
+                { "type": "strawberry", "chance": 26 },
+                { "type": "tomatoy", "chance": 24 },
+                { "type": "chilli", "chance": 23 }
+            ],
+            "completePlants": [
+                { "type": "reeds", "count": 100 },
+                { "type": "strawberry", "count": 100 },
+                { "type": "tomatoy", "count": 100 },
+                { "type": "chilli", "count": 100 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        }
+    ],
+    "randomLevels": [
+        {
+            "levelId": "level_cw_4",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_04_cw",
+            "preview": "Level4_cw",
+            "plants": [
+                { "type": "snow1", "chance": 10 },
+                { "type": "lollipop", "chance": 45 },
+                { "type": "cookie", "chance": 45 }
+            ],
+            "completePlants": [
+                { "type": "lollipop", "count": 75 },
+                { "type": "cookie", "count": 75 },
+                { "type": "snow1", "count": 25 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_5",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 1,
+            "environment": "Field_05",
+            "preview": "Level5",
+            "plants": [
+                { "type": "corn", "chance": 29 },
+                { "type": "sunflower", "chance": 26 },
+                { "type": "carrot", "chance": 23 },
+                { "type": "cabbage", "chance": 22 }
+            ],
+            "completePlants": [
+                { "type": "corn", "count": 180 },
+                { "type": "sunflower", "count": 170 },
+                { "type": "carrot", "count": 160 },
+                { "type": "cabbage", "count": 145 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": "skinGrp_Harvester5"
+        },
+        {
+            "levelId": "level_cw_5",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_05_cw",
+            "preview": "Level5_cw",
+            "plants": [
+                { "type": "snow1", "chance": 10 },
+                { "type": "gift", "chance": 45 },
+                { "type": "cookie", "chance": 45 }
+            ],
+            "completePlants": [
+                { "type": "gift", "count": 85 },
+                { "type": "cookie", "count": 85 },
+                { "type": "snow1", "count": 25 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_6",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 1,
+            "environment": "Field_06",
+            "preview": "Level6",
+            "plants": [
+                { "type": "sunflower", "chance": 28 },
+                { "type": "carrot", "chance": 25 },
+                { "type": "cabbage", "chance": 25 },
+                { "type": "beetle", "chance": 22 }
+            ],
+            "completePlants": [
+                { "type": "sunflower", "count": 195 },
+                { "type": "carrot", "count": 180 },
+                { "type": "cabbage", "count": 170 },
+                { "type": "beetle", "count": 160 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_medium", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": "skinGrp_Harvester6"
+        },
+        {
+            "levelId": "level_cw_6",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_06_cw",
+            "preview": "Level6_cw",
+            "plants": [
+                { "type": "snow1", "chance": 10 },
+                { "type": "gift", "chance": 45 },
+                { "type": "rocket", "chance": 45 }
+            ],
+            "completePlants": [
+                { "type": "gift", "count": 100 },
+                { "type": "rocket", "count": 100 },
+                { "type": "snow1", "count": 25 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_medium", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_7",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 1,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_07",
+            "preview": "Level7",
+            "plants": [
+                { "type": "carrot", "chance": 28 },
+                { "type": "cabbage", "chance": 27 },
+                { "type": "beetle", "chance": 24 },
+                { "type": "eggplant", "chance": 21 }
+            ],
+            "completePlants": [
+                { "type": "carrot", "count": 205 },
+                { "type": "cabbage", "count": 195 },
+                { "type": "beetle", "count": 180 },
+                { "type": "eggplant", "count": 170 }
+            ],
+            "boosterSettings": [{ "type": "bstGrp_high", "chanceWeight": 1 }],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_7",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_07_cw",
+            "preview": "Level7_cw",
+            "plants": [
+                { "type": "rocket", "chance": 30 },
+                { "type": "candy", "chance": 35 },
+                { "type": "lollipop", "chance": 35 }
+            ],
+            "completePlants": [
+                { "type": "rocket", "count": 100 },
+                { "type": "candy", "count": 100 },
+                { "type": "lollipop", "count": 75 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_medium", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_8",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 1,
+            "environment": "Field_08",
+            "preview": "Level8",
+            "plants": [
+                { "type": "cabbage", "chance": 29 },
+                { "type": "beetle", "chance": 26 },
+                { "type": "eggplant", "chance": 24 },
+                { "type": "watermelon", "chance": 21 }
+            ],
+            "completePlants": [
+                { "type": "cabbage", "count": 230 },
+                { "type": "beetle", "count": 210 },
+                { "type": "eggplant", "count": 200 },
+                { "type": "watermelon", "count": 180 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_medium", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": "skinGrp_Harvester7"
+        },
+        {
+            "levelId": "level_cw_8",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 1,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_08_cw",
+            "preview": "Level8_cw",
+            "plants": [
+                { "type": "cookie", "chance": 35 },
+                { "type": "rocket", "chance": 35 },
+                { "type": "lollipop", "chance": 30 }
+            ],
+            "completePlants": [
+                { "type": "cookie", "count": 75 },
+                { "type": "rocket", "count": 75 },
+                { "type": "lollipop", "count": 75 }
+            ],
+            "boosterSettings": [{ "type": "bstGrp_high", "chanceWeight": 1 }],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_9",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 1,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_09",
+            "preview": "Level9",
+            "plants": [
+                { "type": "beetle", "chance": 28 },
+                { "type": "eggplant", "chance": 26 },
+                { "type": "watermelon", "chance": 23 },
+                { "type": "purplewheat", "chance": 23 }
+            ],
+            "completePlants": [
+                { "type": "beetle", "count": 240 },
+                { "type": "eggplant", "count": 230 },
+                { "type": "watermelon", "count": 220 },
+                { "type": "purplewheat", "count": 205 }
+            ],
+            "boosterSettings": [{ "type": "bstGrp_high", "chanceWeight": 1 }],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_9",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_09_cw",
+            "preview": "Level9_cw",
+            "plants": [
+                { "type": "snow1", "chance": 15 },
+                { "type": "rocket", "chance": 30 },
+                { "type": "gift", "chance": 20 },
+                { "type": "cookie", "chance": 35 }
+            ],
+            "completePlants": [
+                { "type": "snow1", "count": 50 },
+                { "type": "rocket", "count": 85 },
+                { "type": "gift", "count": 75 },
+                { "type": "cookie", "count": 100 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_10",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 1,
+            "environment": "Field_10",
+            "preview": "Level10",
+            "plants": [
+                { "type": "eggplant", "chance": 27 },
+                { "type": "watermelon", "chance": 25 },
+                { "type": "purplewheat", "chance": 25 },
+                { "type": "cucumber", "chance": 23 }
+            ],
+            "completePlants": [
+                { "type": "eggplant", "count": 265 },
+                { "type": "watermelon", "count": 255 },
+                { "type": "purplewheat", "count": 240 },
+                { "type": "cucumber", "count": 230 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": "skinGrp_Harvester8"
+        },
+        {
+            "levelId": "level_cw_10",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_01_cw",
+            "preview": "Level1_cw",
+            "plants": [
+                { "type": "snow1", "chance": 80 },
+                { "type": "candy", "chance": 20 }
+            ],
+            "completePlants": [
+                { "type": "snow1", "count": 75 },
+                { "type": "candy", "count": 25 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_11",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 99,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_11",
+            "preview": "Level11",
+            "plants": [
+                { "type": "watermelon", "chance": 27 },
+                { "type": "purplewheat", "chance": 26 },
+                { "type": "cucumber", "chance": 24 },
+                { "type": "tomator", "chance": 22 }
+            ],
+            "completePlants": [
+                { "type": "watermelon", "count": 290 },
+                { "type": "purplewheat", "count": 270 },
+                { "type": "cucumber", "count": 260 },
+                { "type": "tomator", "count": 240 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_11",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_02_cw",
+            "preview": "Level2_cw",
+            "plants": [
+                { "type": "snow1", "chance": 40 },
+                { "type": "candy", "chance": 60 }
+            ],
+            "completePlants": [
+                { "type": "snow1", "count": 60 },
+                { "type": "candy", "count": 60 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_12",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 1,
+            "environment": "Field_12",
+            "preview": "Level12",
+            "plants": [
+                { "type": "purplewheat", "chance": 28 },
+                { "type": "cucumber", "chance": 26 },
+                { "type": "tomator", "chance": 24 },
+                { "type": "apricot", "chance": 22 }
+            ],
+            "completePlants": [
+                { "type": "purplewheat", "count": 300 },
+                { "type": "cucumber", "count": 290 },
+                { "type": "tomator", "count": 280 },
+                { "type": "apricot", "count": 265 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": "skinGrp_Harvester9"
+        },
+        {
+            "levelId": "level_cw_12",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_03_cw",
+            "preview": "Level3_cw",
+            "plants": [
+                { "type": "cookie", "chance": 70 },
+                { "type": "candy", "chance": 30 }
+            ],
+            "completePlants": [
+                { "type": "cookie", "count": 85 },
+                { "type": "candy", "count": 60 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_13",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_13",
+            "preview": "Level13",
+            "plants": [
+                { "type": "cucumber", "chance": 27 },
+                { "type": "tomator", "chance": 26 },
+                { "type": "apricot", "chance": 24 },
+                { "type": "banana", "chance": 23 }
+            ],
+            "completePlants": [
+                { "type": "cucumber", "count": 325 },
+                { "type": "tomator", "count": 300 },
+                { "type": "apricot", "count": 290 },
+                { "type": "banana", "count": 280 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_13",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_04_cw",
+            "preview": "Level4_cw",
+            "plants": [
+                { "type": "snow1", "chance": 10 },
+                { "type": "lollipop", "chance": 45 },
+                { "type": "cookie", "chance": 45 }
+            ],
+            "completePlants": [
+                { "type": "lollipop", "count": 75 },
+                { "type": "cookie", "count": 75 },
+                { "type": "snow1", "count": 25 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_14",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 1,
+            "environment": "Field_14",
+            "preview": "Level14",
+            "plants": [
+                { "type": "tomator", "chance": 27 },
+                { "type": "apricot", "chance": 25 },
+                { "type": "banana", "chance": 25 },
+                { "type": "beetroot", "chance": 23 }
+            ],
+            "completePlants": [
+                { "type": "tomator", "count": 330 },
+                { "type": "apricot", "count": 315 },
+                { "type": "banana", "count": 300 },
+                { "type": "beetroot", "count": 300 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": "skinGrp_Harvester10"
+        },
+        {
+            "levelId": "level_cw_14",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_05_cw",
+            "preview": "Level5_cw",
+            "plants": [
+                { "type": "snow1", "chance": 10 },
+                { "type": "gift", "chance": 45 },
+                { "type": "cookie", "chance": 45 }
+            ],
+            "completePlants": [
+                { "type": "gift", "count": 85 },
+                { "type": "cookie", "count": 85 },
+                { "type": "snow1", "count": 25 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_15",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_15",
+            "preview": "Level15",
+            "plants": [
+                { "type": "apricot", "chance": 27 },
+                { "type": "banana", "chance": 26 },
+                { "type": "beetroot", "chance": 24 },
+                { "type": "cherry", "chance": 23 }
+            ],
+            "completePlants": [
+                { "type": "apricot", "count": 350 },
+                { "type": "banana", "count": 330 },
+                { "type": "beetroot", "count": 330 },
+                { "type": "cherry", "count": 315 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_15",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_06_cw",
+            "preview": "Level6_cw",
+            "plants": [
+                { "type": "snow1", "chance": 10 },
+                { "type": "gift", "chance": 45 },
+                { "type": "rocket", "chance": 45 }
+            ],
+            "completePlants": [
+                { "type": "gift", "count": 100 },
+                { "type": "rocket", "count": 100 },
+                { "type": "snow1", "count": 25 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_16",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_16",
+            "preview": "Level16",
+            "plants": [
+                { "type": "banana", "chance": 27 },
+                { "type": "beetroot", "chance": 26 },
+                { "type": "cherry", "chance": 24 },
+                { "type": "lemon", "chance": 23 }
+            ],
+            "completePlants": [
+                { "type": "banana", "count": 360 },
+                { "type": "beetroot", "count": 360 },
+                { "type": "cherry", "count": 345 },
+                { "type": "lemon", "count": 330 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_16",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_07_cw",
+            "preview": "Level7_cw",
+            "plants": [
+                { "type": "rocket", "chance": 30 },
+                { "type": "candy", "chance": 35 },
+                { "type": "lollipop", "chance": 35 }
+            ],
+            "completePlants": [
+                { "type": "rocket", "count": 100 },
+                { "type": "candy", "count": 100 },
+                { "type": "lollipop", "count": 75 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_17",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_17",
+            "preview": "Level17",
+            "plants": [
+                { "type": "beetroot", "chance": 27 },
+                { "type": "cherry", "chance": 25 },
+                { "type": "lemon", "chance": 24 },
+                { "type": "onion", "chance": 24 }
+            ],
+            "completePlants": [
+                { "type": "beetroot", "count": 390 },
+                { "type": "cherry", "count": 375 },
+                { "type": "lemon", "count": 360 },
+                { "type": "onion", "count": 345 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 1 },
+                { "type": "bstGrp_medium", "chanceWeight": 1 },
+                { "type": "bstGrp_high", "chanceWeight": 1 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_17",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_08_cw",
+            "preview": "Level8_cw",
+            "plants": [
+                { "type": "cookie", "chance": 35 },
+                { "type": "rocket", "chance": 35 },
+                { "type": "lollipop", "chance": 30 }
+            ],
+            "completePlants": [
+                { "type": "cookie", "count": 75 },
+                { "type": "rocket", "count": 75 },
+                { "type": "lollipop", "count": 75 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_18",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_18",
+            "preview": "Level18",
+            "plants": [
+                { "type": "cherry", "chance": 27 },
+                { "type": "lemon", "chance": 25 },
+                { "type": "onion", "chance": 25 },
+                { "type": "orange", "chance": 23 }
+            ],
+            "completePlants": [
+                { "type": "cherry", "count": 410 },
+                { "type": "lemon", "count": 390 },
+                { "type": "onion", "count": 375 },
+                { "type": "orange", "count": 360 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_18",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_09_cw",
+            "preview": "Level9_cw",
+            "plants": [
+                { "type": "snow1", "chance": 15 },
+                { "type": "rocket", "chance": 30 },
+                { "type": "gift", "chance": 20 },
+                { "type": "cookie", "chance": 35 }
+            ],
+            "completePlants": [
+                { "type": "snow1", "count": 50 },
+                { "type": "rocket", "count": 85 },
+                { "type": "gift", "count": 75 },
+                { "type": "cookie", "count": 100 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_19",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_19",
+            "preview": "Level19",
+            "plants": [
+                { "type": "lemon", "chance": 26 },
+                { "type": "onion", "chance": 26 },
+                { "type": "orange", "chance": 25 },
+                { "type": "plum", "chance": 23 }
+            ],
+            "completePlants": [
+                { "type": "lemon", "count": 420 },
+                { "type": "onion", "count": 405 },
+                { "type": "orange", "count": 390 },
+                { "type": "plum", "count": 375 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_19",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_01_cw",
+            "preview": "Level1_cw",
+            "plants": [
+                { "type": "snow1", "chance": 80 },
+                { "type": "candy", "chance": 20 }
+            ],
+            "completePlants": [
+                { "type": "snow1", "count": 75 },
+                { "type": "candy", "count": 25 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_20",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_20",
+            "preview": "Level20",
+            "plants": [
+                { "type": "onion", "chance": 27 },
+                { "type": "orange", "chance": 26 },
+                { "type": "plum", "chance": 24 },
+                { "type": "potato", "chance": 23 }
+            ],
+            "completePlants": [
+                { "type": "onion", "count": 435 },
+                { "type": "orange", "count": 420 },
+                { "type": "plum", "count": 405 },
+                { "type": "potato", "count": 400 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_20",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_02_cw",
+            "preview": "Level2_cw",
+            "plants": [
+                { "type": "snow1", "chance": 40 },
+                { "type": "candy", "chance": 60 }
+            ],
+            "completePlants": [
+                { "type": "snow1", "count": 60 },
+                { "type": "candy", "count": 60 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_21",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_01",
+            "preview": "Level21",
+            "plants": [
+                { "type": "orange", "chance": 27 },
+                { "type": "plum", "chance": 25 },
+                { "type": "potato", "chance": 24 },
+                { "type": "pumpkin", "chance": 24 }
+            ],
+            "completePlants": [
+                { "type": "orange", "count": 450 },
+                { "type": "plum", "count": 435 },
+                { "type": "potato", "count": 430 },
+                { "type": "pumpkin", "count": 410 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_21",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_03_cw",
+            "preview": "Level3_cw",
+            "plants": [
+                { "type": "cookie", "chance": 70 },
+                { "type": "candy", "chance": 30 }
+            ],
+            "completePlants": [
+                { "type": "cookie", "count": 85 },
+                { "type": "candy", "count": 60 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_22",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_02",
+            "preview": "Level22",
+            "plants": [
+                { "type": "plum", "chance": 26 },
+                { "type": "potato", "chance": 25 },
+                { "type": "pumpkin", "chance": 25 },
+                { "type": "reeds", "chance": 24 }
+            ],
+            "completePlants": [
+                { "type": "plum", "count": 470 },
+                { "type": "potato", "count": 460 },
+                { "type": "pumpkin", "count": 440 },
+                { "type": "reeds", "count": 420 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_22",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_04_cw",
+            "preview": "Level4_cw",
+            "plants": [
+                { "type": "snow1", "chance": 10 },
+                { "type": "lollipop", "chance": 45 },
+                { "type": "cookie", "chance": 45 }
+            ],
+            "completePlants": [
+                { "type": "lollipop", "count": 75 },
+                { "type": "cookie", "count": 75 },
+                { "type": "snow1", "count": 25 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_23",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 101,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_03",
+            "preview": "Level23",
+            "plants": [
+                { "type": "potato", "chance": 26 },
+                { "type": "pumpkin", "chance": 26 },
+                { "type": "reeds", "chance": 25 },
+                { "type": "strawberry", "chance": 24 }
+            ],
+            "completePlants": [
+                { "type": "potato", "count": 495 },
+                { "type": "pumpkin", "count": 470 },
+                { "type": "reeds", "count": 450 },
+                { "type": "strawberry", "count": 435 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_23",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_05_cw",
+            "preview": "Level5_cw",
+            "plants": [
+                { "type": "snow1", "chance": 10 },
+                { "type": "gift", "chance": 45 },
+                { "type": "cookie", "chance": 45 }
+            ],
+            "completePlants": [
+                { "type": "gift", "count": 85 },
+                { "type": "cookie", "count": 85 },
+                { "type": "snow1", "count": 25 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_24",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_04",
+            "preview": "Level24",
+            "plants": [
+                { "type": "pumpkin", "chance": 27 },
+                { "type": "reeds", "chance": 26 },
+                { "type": "strawberry", "chance": 24 },
+                { "type": "tomatoy", "chance": 23 }
+            ],
+            "completePlants": [
+                { "type": "pumpkin", "count": 505 },
+                { "type": "reeds", "count": 480 },
+                { "type": "strawberry", "count": 470 },
+                { "type": "tomatoy", "count": 460 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_cw_24",
+            "season": 0,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_06_cw",
+            "preview": "Level6_cw",
+            "plants": [
+                { "type": "snow1", "chance": 10 },
+                { "type": "gift", "chance": 45 },
+                { "type": "rocket", "chance": 45 }
+            ],
+            "completePlants": [
+                { "type": "gift", "count": 100 },
+                { "type": "rocket", "count": 100 },
+                { "type": "snow1", "count": 25 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        },
+        {
+            "levelId": "level_25",
+            "season": 1,
+            "botsCount": 3,
+            "chancesSum": 100,
+            "maxBoosterGroupsToSelect": 2,
+            "hasSkinGroupToUnlock": 0,
+            "environment": "Field_05",
+            "preview": "Level25",
+            "plants": [
+                { "type": "reeds", "chance": 27 },
+                { "type": "strawberry", "chance": 26 },
+                { "type": "tomatoy", "chance": 24 },
+                { "type": "chilli", "chance": 23 }
+            ],
+            "completePlants": [
+                { "type": "reeds", "count": 100 },
+                { "type": "strawberry", "count": 100 },
+                { "type": "tomatoy", "count": 100 },
+                { "type": "chilli", "count": 100 }
+            ],
+            "boosterSettings": [
+                { "type": "bstGrp_low", "chanceWeight": 10 },
+                { "type": "bstGrp_medium", "chanceWeight": 45 },
+                { "type": "bstGrp_high", "chanceWeight": 45 }
+            ],
+            "skinGroupToUnlock": null
+        }
+    ],
+    "doNotRepeatLastLevels": 3,
+    "generateNewLevelWhenLeft": 1,
+    "numberOfNewLevelsToGenerate": 2,
+    "minIncreasePercentCulture": 20,
+    "maxIncreasePercentCulture": 30
+}
