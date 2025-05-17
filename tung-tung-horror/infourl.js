@@ -1,0 +1,1 @@
+https://api.1games.io/api/gameinfo
