@@ -1,0 +1,19 @@
+{
+    "paks": [
+        "assets1_r3433.png",
+        "winter_r3A78.png"
+    ],
+    "pak_sizes": {
+        "assets1_r3433.png": 6525240,
+        "winter_r3A78.png": 7930363
+    },
+    "preload_paks": [
+        "assets1_r3433.png"
+    ],
+    "map_paks": {
+        "winter": "winter_r3A78.png"
+    },
+    "map_hashes": {
+        "winter": "9B68D87B"
+    }
+}
