@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head> <script src="/sdk.js"></script>
+<meta charset="utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Surf GO: Онлайн паркур, КС ГО бхоп и сёрф в 3D</title>
+<link rel="shortcut icon" href="TemplateData/favicon.ico"/>
+<link rel="stylesheet" href="TemplateData/style.css"/>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="circles" id="cuboid_anim">
+<div class="circle1"></div>
+<div class="circle2"></div>
+<div class="circle3"></div>
+<div class="circle4"></div>
+<div class="circle5"></div>
+<div class="circle6"></div>
+<div class="circle7"></div>
+<div class="circle8"></div>
+<div class="circle9"></div>
+<div class="circle10"></div>
+<div class="circle11"></div>
+<div class="circle12"></div>
+<div class="circle13"></div>
+<div class="circle14"></div>
+<div class="circle15"></div>
+</div>
+<!-- partial -->
+<div id="unity-container" style="position: absolute; width: 100%; height: 100%; left: 0%; top: 0%;">
+<canvas id="unity-canvas" style="position: absolute; width: 100%; height: 100%;"></canvas>
+<div id="unity-loading-bar">
+<div id="unity-logo"></div>
+<div id="unity-progress-bar-empty">
+<div id="unity-progress-bar-full"></div>
+</div>
+</div>
+<div id="unity-warning"> </div>
+</div>
+<script id="base">
+      var myGameInstance = null;
+      var leaderboard = null;
+      var player = null;
+      var isDeletedGarbage = false;
+      var ysdk = null;
+      var ysdk = null;
+      var isYsdkInitialize = false;
+
+      function initYsdk() {
+            console.log('Yandex SDK start initialization');
+            return YaGames.init().then(y => {
+              console.log('Yandex SDK initialized');
+              ysdk = y;
+              ysdk = y;
+              return y;
+            })
+            .catch(console.error);
+      }
+
+      function initLeaderboard() {
+        ysdk.getLeaderboards().then(_lb => lb = _lb);
+      }
+
+      function initPlayer() {
+        if (ysdk === null) {
+          console.log('ysdk === null');
+          return initYsdk().then(y => 
+              {
+                   return y.getPlayer().then(_player => {
+                    window.player = _player;
+                    return _player;
+                });
+          });
+        }
+          else {
+              console.log('ysdk === initialized');
+              return ysdk.getPlayer().then(_player => {
+                window.player = _player;
+                return _player;
+            });
+          }
+      }
+
+      function checkCanShowShorcutDialog() {
+            initYsdk().then(y => {
+            y.shortcut.canShowPrompt().then(prompt => {
+            console.log('Shortcut is allowed?:', prompt);
+            if (prompt.canShow) {
+                myGameInstance.SendMessage("Yandex WebGL", "ShortcutDialogCanShow");
+            }
+          });
+          });
+      }
+
+      var container = document.querySelector("#unity-container");
+      var canvas = document.querySelector("#unity-canvas");
+      var loadingBar = document.querySelector("#unity-loading-bar");
+      var progressBarFull = document.querySelector("#unity-progress-bar-full");
+      //var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+      var warningBanner = document.querySelector("#unity-warning");
+
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/Build.loader.js";
+      var config = {
+        dataUrl: buildUrl + "/Build.data.br",
+        frameworkUrl: buildUrl + "/Build.framework.js.br",
+        codeUrl: buildUrl + "/Build.wasm.br",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "PDA Games",
+        productName: "Surf GO",
+        productVersion: "3.0293",
+      };
+
+      // By default Unity keeps WebGL canvas render target size matched with
+      // the DOM size of the canvas element (scaled by window.devicePixelRatio)
+      // Set this to false if you want to decouple this synchronization from
+      // happening inside the engine, and you would instead like to size up
+      // the canvas DOM size and WebGL render target sizes yourself.
+      // config.matchWebGLToCanvasSize = false;
+
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        // Mobile device style: fill the whole browser client area with the game canvas:
+
+        var meta = document.createElement('meta');
+        meta.name = 'viewport';
+        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+        document.getElementsByTagName('head')[0].appendChild(meta);
+        container.className = "unity-mobile";
+        canvas.className = "unity-mobile";
+      } else {
+        // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
+
+        canvas.style.width = "100%";
+        canvas.style.height = "100%";
+      }
+
+      canvas.style.background = "url('" + buildUrl + "/Build.jpg.br') center / cover";
+      loadingBar.style.display = "block";
+
+      var script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+
+        createUnityInstance(canvas, config, (progress) => {
+          progressBarFull.style.width = 100 * progress + "%";
+        }).then((unityInstance) => {
+          myGameInstance = unityInstance;
+
+          myGameInstance.SendMessage("Yandex WebGL", "InitializeYandexInstance");
+          
+          if (isDeletedGarbage === false) {
+            document.getElementById("cuboid_anim").remove();
+            document.getElementById("unity-loading-bar").remove();
+            isDeletedGarbage = true;
+          }
+
+          console.log("myGameInstance initialized! in Yandex plugin");
+        }).catch(error => {
+          if (isDeletedGarbage === false) {
+          document.getElementById("cuboid_anim").remove();
+          loadingBar.style.display = "none";
+          isDeletedGarbage = true;
+        }
+        })
+      };
+      document.body.appendChild(script);
+    </script>
+</body>
+</html>
