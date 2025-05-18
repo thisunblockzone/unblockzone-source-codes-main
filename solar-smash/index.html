@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head> <!-- ########## PAGE CONFIGURATION ########## -->
+<meta charset="utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta viewport="" width="device-width," height="device-height," initial-scale="1.0," user-scalable="no," shrink-to-fit="yes">
+<title>Planets Smash</title>
+<link rel="shortcut icon" href="TemplateData/favicon.ico"/>
+<link rel="stylesheet" href="TemplateData/style.css"/>
+<link rel="manifest" href="manifest.webmanifest"/>
+<!-- ########## DEBUG MODE ########## -->
+<script type="text/javascript">
+        function fetchDebugMode() {
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            return urlParams.get('mirra-sdk-debug') === 'true';
+        }
+        // Define debug mode for the whole page.
+        const isDebugModeRequested = fetchDebugMode();
+    </script>
+<!-- ########## DEBUG CONSOLE ########## -->
+<script type="text/javascript" src="TemplateData/eruda.js"></script>
+<script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+            if (isDebugModeRequested == true) {
+                eruda.init();
+            }
+        });
+    </script>
+</meta></head>
+<body>
+<!-- ########## GAME CANVAS ########## -->
+<div id="unity-container">
+<canvas id="unity-canvas" width="960" height="600" tabindex="-1"></canvas>
+<div id="unity-loading-bar">
+<div id="unity-logo"></div>
+<div id="unity-progress-bar-empty">
+<div id="unity-progress-bar-full"></div>
+</div>
+<div id="mirra-games-block">
+<img id="mirra-games-logo" src="TemplateData/mirra-games-logo.png"/>
+<img id="mirra-games-icon" src="TemplateData/mirra-games-icon.gif"/>
+</div>
+</div>
+<div id="unity-warning"> </div>
+</div>
+<!-- ########## SERVICE WORKER ########## -->
+<script type="text/javascript">
+        window.addEventListener("load", function () {
+            if ("serviceWorker" in navigator) {
+                navigator.serviceWorker.register("ServiceWorker.js");
+            }
+        });
+    </script>
+<!-- ########## MEMORY DIAGNOSTICS ########## -->
+<link rel="stylesheet" href="TemplateData/diagnostics.css"/>
+<script src="TemplateData/diagnostics.js"></script>
+<script type="text/javascript">
+        let diagnosticsIcon = document.createElement('img');
+        diagnosticsIcon.id = 'diagnostics-icon';
+        diagnosticsIcon.src = 'TemplateData/webmemd-icon.png';
+        diagnosticsIcon.style.display = "none";
+        document.body.appendChild(diagnosticsIcon);
+    </script>
+<!-- ########## GAME INSTANCE LOADING ########## -->
+<script type="text/javascript" src="TemplateData/game.js"></script>
+<!-- ########## GAME ASPECT RATIO ########## -->
+<script type="text/javascript" src="TemplateData/aspectRatio.js"></script>
+<script type="text/javascript">
+        aspectRatio.init();
+    </script>
+<!-- ########## YANDEX GAMES SDK ########## -->
+<script type="text/javascript" src="yandexGamesSDK.js"></script>
+<script type="text/javascript">
+        window.addEventListener("load", function () {
+            yandexGamesSDK.init().then(() => {
+				// After Yandex Games SDK is ready.
+				game.init();
+            });
+        });
+    </script>
+</body>
+</html>
