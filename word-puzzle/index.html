@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow: hidden">
+<head>
+  <meta charset="UTF-8">
+  <title>Wow</title>
+  <style>
+    body {
+      touch-action: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    @keyframes fadeOut {
+      from { opacity: 1; }
+      to { opacity: 0; }
+    }
+  </style>
+
+  <script>
+    window.famobi_gameJS = ["game.js"];
+    (function (document, url, fgJS, firstJS) {
+      fgJS = document.createElement('script');
+      firstJS = document.getElementsByTagName('script')[0];
+      fgJS.src = url + encodeURIComponent(document.location.href);
+      firstJS.parentNode.insertBefore(fgJS, firstJS);
+    })(document, 'html5games/gameapi/v1.js?e=');
+  </script>
+
+  <script defer src="game.js"></script>
+</head>
+<body id="body1">
+  <div id="loading" style="
+    opacity: 1;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center;">
+    
+    <img src="./assets/companyLogos/fugo_logo.png" style="
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: calc(0.44 * min(100vw, 100vh));
+      height: calc(0.22 * min(100vw, 100vh));
+    "/>
+
+    <img src="./assets/companyLogos/famobi_logo.png" style="
+      position: absolute;
+      top: 54%;
+      left: 30%;
+      transform: translate(-50%, -50%);
+      width: calc(0.375 * min(100vw, 100vh));
+      height: calc(0.15 * min(100vw, 100vh));
+    "/>
+
+    <img src="./assets/companyLogos/playin_logo.png" style="
+      position: absolute;
+      top: 55%;
+      left: 72%;
+      transform: translate(-50%, -50%);
+      width: calc(0.3975 * min(100vw, 100vh));
+      height: calc(0.15 * min(100vw, 100vh));
+    "/>
+  </div>
+</body>
+</html>
