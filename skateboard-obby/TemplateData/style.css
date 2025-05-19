@@ -1,0 +1,149 @@
+canvas:focus {
+  outline: none;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+
+  /* Отключаем скролл и лонгтап на IOS */
+  overflow: hidden;
+  -webkit-touch-callout:none;
+  -webkit-user-select:none;
+  -khtml-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+  height: 100%;
+
+  background-image: 
+  url('background.png'),
+  linear-gradient(180deg, rgba(0, 0, 70, 1) 0%, rgba(28, 181, 224, 1) 100%);
+
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#unity-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+#unity-canvas {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+
+  background-image: 
+  url('background.png'),
+  linear-gradient(180deg, rgba(0, 0, 70, 1) 0%, rgba(28, 181, 224, 1) 100%);
+
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  -webkit-box-shadow: -16px 0px 10px -12px rgba(36, 74, 103, 0.6), 16px 0px 10px -12px rgba(36, 74, 103, 0.6);
+  -moz-box-shadow: -16px 0px 10px -12px rgba(36, 74, 103, 0.6), 16px 0px 10px -12px rgba(36, 74, 103, 0.6);
+  box-shadow: -16px 0px 10px -12px rgba(36, 74, 103, 0.6), 16px 0px 10px -12px rgba(36, 74, 103, 0.6);
+
+}
+
+#unity-logo {
+  width: 144px;
+  height: 144px;
+  background: url('logo.png');
+
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#unity-loading-bar {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+
+#loader {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  display: block;
+
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 32px 0 #fff, -32px 0 #fff;
+  position: relative;
+  animation: flash 0.6s ease-in infinite alternate;
+}
+
+#loader::before , #loader::after {
+  content: '';
+  position: absolute;
+  left: -64px;
+  top: 0;
+  background: #FFF;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  transform-origin: 35px -35px;
+  transform: rotate(45deg);
+  animation: hitL 0.6s ease-in infinite alternate;
+}
+
+#loader::after {
+  left: 64px;
+  transform: rotate(-45deg);
+  transform-origin: -35px -35px;
+  animation: hitR 0.6s ease-out infinite alternate;
+}
+
+@keyframes flash {
+  0%  , 100%{
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 32px 0 rgba(255, 255, 255, 0.25), -32px 0 rgba(255, 255, 255, 0.25);
+  }
+  25% {
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 32px 0 rgba(255, 255, 255, 0.25), -32px 0 rgba(255, 255, 255, 1);
+  }
+  50% {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 32px 0 rgba(255, 255, 255, 0.25), -32px 0 rgba(255, 255, 255, 0.25);
+  }
+  75% {
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 32px 0 rgba(255, 255, 255, 1), -32px 0 rgba(255, 255, 255, 0.25);
+  }
+}
+
+@keyframes hitL {
+ 0% {
+   transform: rotate(45deg);
+   background-color: rgba(255, 255, 255, 1);
+ }
+ 25% , 100% {
+   transform: rotate(0deg);
+   background-color: rgba(255, 255, 255, 0.25);
+ }
+}
+
+@keyframes hitR {
+ 0% , 75% {
+   transform: rotate(0deg);
+   background-color: rgba(255, 255, 255, 0.25);
+ }
+ 100% {
+   transform: rotate(-45deg);
+   background-color: rgba(255, 255, 255, 1);
+ }
+}
