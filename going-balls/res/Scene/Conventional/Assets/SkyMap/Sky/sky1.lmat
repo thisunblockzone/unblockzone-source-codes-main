@@ -1,0 +1,37 @@
+{
+	"version":"LAYAMATERIAL:02",
+	"props":{
+		"type":"Laya.SkyBoxMaterial",
+		"name":"sky1",
+		"textures":[
+			{
+				"name":"textureCube",
+				"path":"sky1.ltc"
+			}
+		],
+		"vectors":[
+			{
+				"name":"tintColor",
+				"value":[
+					0.5,
+					0.5,
+					0.5,
+					0.5
+				]
+			}
+		],
+		"defines":[
+			"_MAPPING_LATITUDE_LONGITUDE_LAYOUT",
+			"_SUNDISK_HIGH_QUALITY"
+		],
+		"cull":2,
+		"blendSrc":1,
+		"blendDst":0,
+		"blend":0,
+		"depthWrite":true,
+		"depthTest":515,
+		"renderQueue":1000,
+		"exposure":1,
+		"rotation":0
+	}
+}                                                                                                    
